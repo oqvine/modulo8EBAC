@@ -22,14 +22,7 @@ Quando preencho um e-mail com formato inválido
 Então é exibida uma mensagem de erro
 
 Esquema do Cenário: Preenchimento de Campos Obrigatórios
-Quando preencho o campo "Nome" com <nome>
-E preencho o campo "Sobrenome" com <sobrenome>
-E seleciono no dropdown de País uma das opções
-E preencho o campo "Endereço" com <endereco>
-E preencho o campo "Cidade" com <cidade>
-E preencho o campo "CEP" com <cep>
-E preencho o campo "Telefone" com <telefone>
-E preencho o campo "Endereço de e-mail" com <email>
+Quando preencho o campo <nome>, <sobrenome>, <endereco>, <cidade>, <cep>, <telefone>, <email>, seleciono uma das opções do dropdown de país
 E clico no botão "Finalizar Compra"
 Então a compra é finalizada com sucesso
 
